@@ -1,0 +1,28 @@
+{
+  "name": "closurebuilder",
+  "version": "0.0.1",
+  "description": "Google Closure Compiler wrapper for Node.js",
+  "keywords": ["build", "closure", "compile", "module"],
+  "main": "closurebuilder",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/redscorpix/node-closurebuilder"
+  },
+  "author": {
+    "name": "Vladislav Yakovlev",
+    "email": "red.scorpix@gmail.com"
+  },
+  "preferGlobal": false,
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "async": "*",
+    "dive": "*",
+    "esprima": "*",
+    "optimist": ">= 0.3.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib"
+}
