@@ -1,13 +1,13 @@
-var builder = require('./lib/builder');
-var depsWriter = require('./lib/depswriter');
-var moduleBuilder = require('./lib/modulebuilder');
-var moduleDepsWriter = require('./lib/moduledepswriter');
-var requireChecker = require('./lib/requirechecker');
+var Builder = require('./lib/builder');
+var DepsWriter = require('./lib/depswriter');
+var ModuleBuilder = require('./lib/modulebuilder');
+var ModuleDepsWriter = require('./lib/moduledepswriter');
+var RequireChecker = require('./lib/requirechecker');
 
 module.exports = {
-  builder: builder,
-  depsWriter: depsWriter,
-  moduleBuilder: moduleBuilder,
-  moduleDepsWriter: moduleDepsWriter,
-  requireChecker: requireChecker
+  Builder: Builder,
+  DepsWriter: DepsWriter,
+  ModuleBuilder: ModuleBuilder,
+  ModuleDepsWriter: MmoduleDepsWriter,
+  RequireChecker: RequireChecker
 };
