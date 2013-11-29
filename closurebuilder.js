@@ -8,6 +8,6 @@ module.exports = {
   Builder: Builder,
   DepsWriter: DepsWriter,
   ModuleBuilder: ModuleBuilder,
-  ModuleDepsWriter: MmoduleDepsWriter,
+  ModuleDepsWriter: ModuleDepsWriter,
   RequireChecker: RequireChecker
 };
