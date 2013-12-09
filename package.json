@@ -24,6 +24,5 @@
   },
   "directories": {
     "lib": "lib"
-  },
-  "main": "closurebuilder"
+  }
 }
