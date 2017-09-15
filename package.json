@@ -1,8 +1,13 @@
 {
   "name": "closurebuilder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Closure Compiler wrapper for Node.js",
-  "keywords": ["build", "closure", "compile", "module"],
+  "keywords": [
+    "build",
+    "closure",
+    "compile",
+    "module"
+  ],
   "main": "closurebuilder",
   "repository": {
     "type": "git",
@@ -16,10 +21,10 @@
   "private": false,
   "license": "MIT",
   "dependencies": {
-    "async": "*",
-    "esprima": "*",
-    "mkdirp": "*",
-    "temporary": "*"
+    "ejs": "^2.5.7",
+    "esprima": "^4.0.0",
+    "mkdirp": "^0.5.1",
+    "temporary": "^0.0.8"
   },
   "directories": {
     "lib": "lib"
